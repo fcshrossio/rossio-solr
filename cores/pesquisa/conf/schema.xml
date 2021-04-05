@@ -42,7 +42,7 @@
     </analyzer>
   </fieldType>
   
-  <fieldType name="date_range" class="solr.DateRangeField" docValues="true" multiValued="true"/>
+  <fieldType name="date_range" class="solr.DateRangeField" multiValued="true"/>
   
   <fieldType name="pdate" class="solr.DatePointField" docValues="true"/>
   <fieldType name="pdates" class="solr.DatePointField" docValues="true" multiValued="true"/>
