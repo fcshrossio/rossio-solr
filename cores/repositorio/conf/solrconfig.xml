@@ -299,7 +299,9 @@
          have some sort of hard autoCommit to limit the log size.
       -->
     <autoCommit>
-      <maxTime>15000</maxTime>
+      <!-- maxTime>15000</maxTime -->
+      <maxTime>10800000</maxTime><!-- 3 hours -->
+      <maxDocs>1000000</maxDocs><!-- 1 million docs -->
       <openSearcher>false</openSearcher>
     </autoCommit>
 
