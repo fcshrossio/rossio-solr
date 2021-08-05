@@ -440,6 +440,7 @@
   <field name="_version_" type="plong" indexed="true" stored="true"/>
 <!--  <field name="language" type="string" indexed="true" stored="true"/> -->
   <field name="rossio_content" type="binary" indexed="false" stored="true" multiValued="false"/>
+  <field name="rossio_contentRossio" type="binary" indexed="false" stored="true" multiValued="false"/>
   <field name="rossio_idAtSource" type="string" indexed="true" stored="true" multiValued="false"/>
   <field name="rossio_last_update" type="pdate" indexed="true" stored="true" multiValued="false"/>
   <field name="rossio_source" type="string" indexed="false" stored="false" multiValued="false"  docValues="true"/>
