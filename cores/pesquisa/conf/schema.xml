@@ -472,6 +472,13 @@
   
   <field name="date_range" type="date_range" indexed="true" stored="true" multiValued="true"/>  
   <field name="location" type="location" indexed="true" stored="true" multiValued="true"/>  
+
+  <field name="dcterms_date_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="dcterms_creator_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="dcterms_contributor_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="dcterms_publisher_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="dcterms_subject_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="dcterms_coverage_vocab" type="string" indexed="true" stored="true" multiValued="true"/>
    
   <field name="dcterms_creator_facet" type="string" indexed="true" stored="true" multiValued="true"/>
   <field name="dcterms_contributor_facet" type="string" indexed="true" stored="true" multiValued="true"/>
