@@ -465,10 +465,10 @@
   <field name="dcterms_coverage" type="text_pt" indexed="true" stored="true" multiValued="true"/>
   <field name="dcterms_rights" type="text_pt" indexed="true" stored="true" multiValued="true"/>
   <field name="dcterms_subject" type="text_pt" indexed="true" stored="true" multiValued="true"/>
-  <field name="dcterms_language" type="text_pt" indexed="true" stored="true" multiValued="true"/>
   
   <field name="dcterms_date" type="string" indexed="true" stored="true" multiValued="true"/>  
   <field name="dcterms_identifier" type="string" indexed="true" stored="true" multiValued="true"/>  
+  <field name="dcterms_language" type="string" indexed="true" stored="true" multiValued="true"/>
   
   <field name="date_range" type="date_range" indexed="true" stored="true" multiValued="true"/>  
   <field name="location" type="location" indexed="true" stored="true" multiValued="true"/>  
